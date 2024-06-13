@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  color:#1c1c1c;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('../Fonts/ProximaNova-Light.eot');
+	src: local('../Fonts/Proxima Nova Light'), local('ProximaNova-Light'),
+		url('../Fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts/ProximaNova-Light.woff') format('woff'),
+		url('../Fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../Fonts/ProximaNova-Bold.eot');
+	src: local('../Fonts/Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('../Fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../Fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('../Fonts/ProximaNova-Extrabld.eot');
+	src: local('../Fonts/Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+		url('../Fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts/') format('woff'),
+		url('../Fonts/ProximaNova-Extrabld.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+.conteiner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+body{
+  font-family: 'Proxima Nova Lt', serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* пробую адаптивные флексы*/
+
+.nav__header{
+  height: 50px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.nav__header-ineer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu ul{
+  display: flex;
+  align-items: center;
+}
+.nav__menu{
+  align-items: center;
+}
